@@ -54,7 +54,7 @@ const getRepos = async(username) => {
 const formSubmit = () => {
     if (searchBox.value != "") {
         getUser(searchBox.value);
-        searchBox.value = ""
+        searchBox.value = " "
     }
     return false;
 }
